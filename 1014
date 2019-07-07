@@ -1,0 +1,10 @@
+//1014 : [기초-입출력] 문자 두 개 입력받아 순서 바꿔 출력하기 해결
+
+#include <stdio.h>
+
+int main(){
+    char x, y;
+    scanf("%c %c", &x, &y);
+    printf("%c %c", y, x);
+    return 0;
+}
