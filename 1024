@@ -1,0 +1,13 @@
+//1024 : [기초-입출력] 단어 한 개 입력받아 나누어 출력하기
+
+#include <stdio.h>
+int main() {
+	int i;
+	char chr[21];
+	scanf("%s", &chr);
+	for (i = 0; chr[i] != NULL; i++)
+	{
+		printf("\'%c\'\n", chr[i]);
+	}
+  return 0;
+}
