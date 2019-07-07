@@ -1,0 +1,9 @@
+//1021 : [기초-입출력] 단어 한 개 입력받아 그대로 출력하기
+
+#include <stdio.h>
+int main() {
+	char length[51];
+	scanf("%s", &length);
+	printf("%s", length);
+	return 0;
+}
