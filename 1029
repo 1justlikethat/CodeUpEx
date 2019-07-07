@@ -1,0 +1,9 @@
+//1029 : [기초-데이터형] 실수 한 개 입력받아 그대로 출력하기2
+
+#include <stdio.h>
+int main() {
+	double d;
+	scanf("%lf", &d); //실수 입력받기
+	printf("%.11lf", d); //소숫점 11까지 print
+	return 0;
+}
