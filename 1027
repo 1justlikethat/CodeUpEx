@@ -1,0 +1,9 @@
+//1027 : [기초-입출력] 년월일 입력받아 형태 바꿔 출력하기
+
+#include <stdio.h>
+int main() {
+	int y, m, d;
+	scanf("%d.%d.%d", &y, &m, &d);
+	printf("%02d-%02d-%04d", d, m, y);
+	return 0;
+}
