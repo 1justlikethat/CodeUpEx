@@ -1,0 +1,11 @@
+//1028 : [기초-데이터형] 정수 한 개 입력받아 그대로 출력하기2
+
+#include <stdio.h>
+
+int main() {
+	unsigned int n;
+	scanf("%u", &n);
+	printf("%u", n);
+  
+	return 0;
+}
